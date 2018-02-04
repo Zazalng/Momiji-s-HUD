@@ -1,2 +1,2 @@
-# Momiji HUD
-- a hud for payday2
+# Momiji's HUD
+- a HUD for Payday 2.
