@@ -1,0 +1,4 @@
+<gui>
+	<preload texture="guis/dlcs/alienware_alpha/textures/pd2/blackmarket/icons/masks/alien_helmet"/>
+	<preload texture="guis/dlcs/alienware_alpha/textures/pd2/blackmarket/icons/masks/area51"/>
+</gui>

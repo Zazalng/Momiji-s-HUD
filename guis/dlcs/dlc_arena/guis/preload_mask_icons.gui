@@ -1,0 +1,6 @@
+<gui>
+	<preload texture="guis/dlcs/dlc_arena/textures/pd2/blackmarket/icons/masks/boombox"/>
+	<preload texture="guis/dlcs/dlc_arena/textures/pd2/blackmarket/icons/masks/cantus"/>
+	<preload texture="guis/dlcs/dlc_arena/textures/pd2/blackmarket/icons/masks/concert_female"/>
+	<preload texture="guis/dlcs/dlc_arena/textures/pd2/blackmarket/icons/masks/concert_male"/>
+</gui>

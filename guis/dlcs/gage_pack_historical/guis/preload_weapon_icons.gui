@@ -1,0 +1,11 @@
+<gui>
+	<preload texture="guis/dlcs/gage_pack_historical/textures/pd2/blackmarket/icons/weapons/c96"/>
+	<preload texture="guis/dlcs/gage_pack_historical/textures/pd2/blackmarket/icons/weapons/mg42"/>
+	<preload texture="guis/dlcs/gage_pack_historical/textures/pd2/blackmarket/icons/weapons/mosin"/>
+	<preload texture="guis/dlcs/gage_pack_historical/textures/pd2/blackmarket/icons/weapons/sterling"/>
+
+	<preload texture="guis/dlcs/gage_pack_historical/textures/pd2/blackmarket/icons/melee_weapons/fairbair"/>
+	<preload texture="guis/dlcs/gage_pack_historical/textures/pd2/blackmarket/icons/melee_weapons/freedom"/>
+	<preload texture="guis/dlcs/gage_pack_historical/textures/pd2/blackmarket/icons/melee_weapons/model24"/>
+	<preload texture="guis/dlcs/gage_pack_historical/textures/pd2/blackmarket/icons/melee_weapons/swagger"/>
+</gui>

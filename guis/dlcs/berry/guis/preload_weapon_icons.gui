@@ -1,0 +1,7 @@
+<gui> 
+	<preload texture="guis/dlcs/berry/textures/pd2/blackmarket/icons/weapons/model70"/>
+	<preload texture="guis/dlcs/berry/textures/pd2/blackmarket/icons/melee_weapons/gator"/>
+	<preload texture="guis/dlcs/berry/textures/pd2/blackmarket/icons/melee_weapons/iceaxe"/>
+	<preload texture="guis/dlcs/berry/textures/pd2/blackmarket/icons/melee_weapons/pugio"/>
+	<preload texture="guis/dlcs/berry/textures/pd2/blackmarket/icons/melee_weapons/selfie"/>
+</gui> 

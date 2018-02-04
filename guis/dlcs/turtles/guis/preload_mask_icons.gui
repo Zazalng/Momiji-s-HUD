@@ -1,0 +1,6 @@
+<gui> 
+	<preload texture="guis/dlcs/turtles/textures/pd2/blackmarket/icons/masks/kage"/>
+	<preload texture="guis/dlcs/turtles/textures/pd2/blackmarket/icons/masks/ninja_hood"/>
+	<preload texture="guis/dlcs/turtles/textures/pd2/blackmarket/icons/masks/shirai"/>
+	<preload texture="guis/dlcs/turtles/textures/pd2/blackmarket/icons/masks/slicer"/>
+</gui> 

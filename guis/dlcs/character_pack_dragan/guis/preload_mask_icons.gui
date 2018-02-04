@@ -1,0 +1,6 @@
+<gui>
+	<preload texture="guis/dlcs/character_pack_dragan/textures/pd2/blackmarket/icons/characters/dragan"/>
+	
+	<preload texture="guis/dlcs/character_pack_dragan/textures/pd2/blackmarket/icons/masks/dragan"/>
+	<preload texture="guis/dlcs/character_pack_dragan/textures/pd2/blackmarket/icons/masks/dragan_begins"/>
+</gui>

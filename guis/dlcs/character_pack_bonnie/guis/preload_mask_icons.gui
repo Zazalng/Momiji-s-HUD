@@ -1,0 +1,6 @@
+<gui>
+	<preload texture="guis/dlcs/character_pack_bonnie/textures/pd2/blackmarket/icons/characters/bonnie"/>
+	
+	<preload texture="guis/dlcs/character_pack_bonnie/textures/pd2/blackmarket/icons/masks/bonnie"/>
+	<preload texture="guis/dlcs/character_pack_bonnie/textures/pd2/blackmarket/icons/masks/bonnie_begins"/>
+</gui>

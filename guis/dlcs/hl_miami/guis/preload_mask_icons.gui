@@ -1,0 +1,10 @@
+<gui>
+	<preload texture="guis/dlcs/hl_miami/textures/pd2/blackmarket/icons/masks/white_wolf"/>
+	<preload texture="guis/dlcs/hl_miami/textures/pd2/blackmarket/icons/masks/owl"/>
+	<preload texture="guis/dlcs/hl_miami/textures/pd2/blackmarket/icons/masks/rabbit"/>
+	<preload texture="guis/dlcs/hl_miami/textures/pd2/blackmarket/icons/masks/pig"/>
+	<preload texture="guis/dlcs/hl_miami/textures/pd2/blackmarket/icons/masks/panther"/>
+	<preload texture="guis/dlcs/hl_miami/textures/pd2/blackmarket/icons/masks/rooster"/>
+	<preload texture="guis/dlcs/hl_miami/textures/pd2/blackmarket/icons/masks/horse"/>
+	<preload texture="guis/dlcs/hl_miami/textures/pd2/blackmarket/icons/masks/tiger"/>
+</gui>

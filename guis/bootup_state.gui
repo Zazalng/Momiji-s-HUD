@@ -1,0 +1,5 @@
+<gui>
+	<preload texture="guis/textures/esrb_rating"/>
+	<preload texture="guis/textures/seven_figures_logo"/>
+	<preload texture="guis/textures/menu_title_screen" />
+</gui>

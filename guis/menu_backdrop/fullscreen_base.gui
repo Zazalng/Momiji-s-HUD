@@ -1,0 +1,36 @@
+<gui>
+	<preload texture="guis/textures/pd2/menu_backdrop/bd_baselayer"/>
+	<preload texture="guis/textures/pd2/menu_backdrop/bd_particles"/>
+	<preload texture="guis/textures/pd2/menu_backdrop/bd_pattern"/>
+	<preload texture="guis/textures/pd2/menu_backdrop/bd_light"/>
+	
+	<panel name_s="panel" halign_s="grow" valign_s="grow" layer="0">
+		<panel name_s="base_layer" halign_s="grow" valign_s="grow" layer="0" />							<!-- Layer for the backdrop texture, same for all menu backdrops -->
+		<panel name_s="pattern_layer" halign_s="grow" valign_s="grow" layer="1" />					<!-- Layer for the mechanical pattern texture. MenuBackdropGUI:set_pattern( texture_s ) -->
+		<panel name_s="item_background_layer" halign_s="grow" valign_s="grow" layer="2" />	<!-- Layer for background items, like vlad face and such. MenuBackdropGUI:get_new_background_layer(), each call creates a new layer (draw call) -->
+		<panel name_s="particles_layer" halign_s="grow" valign_s="grow" layer="3" />				<!-- Layer for particles. MenuBackdropGUI:set_particles_object( texture_s, row_int, column_int, num_particles_int ) -->
+		<panel name_s="light_layer" halign_s="grow" valign_s="grow" layer="4" />						<!-- Layer for the light. MenuBackdropGUI:enable_light( boolean ) -->
+		<panel name_s="item_foreground_layer" halign_s="grow" valign_s="grow" layer="5" />	<!-- Layer for items on the top, such as texts. MenuBackdropGUI:get_new_foreground_layer(), each call creates a new layer (draw call) -->
+	</panel>
+	
+	<script><![CDATA[
+		saferect_shape = {}
+		
+    function setup_saferect_shape()
+			local safe_scaled_size = managers.gui_data:safe_scaled_size()
+    	
+    	local temp_saferect_panel = panel:panel( { name="temp_saferect_panel", w=safe_scaled_size.w, h=safe_scaled_size.h } )
+			temp_saferect_panel:set_center( panel:w() * 0.5, panel:h() * 0.5 )
+			
+			saferect_shape = { temp_saferect_panel:shape() }
+			saferect_shape.x = saferect_shape[1]			-- more user friendly
+			saferect_shape.y = saferect_shape[2]
+			saferect_shape.w = saferect_shape[3]
+			saferect_shape.h = saferect_shape[4]
+			saferect_shape.width = saferect_shape.w
+			saferect_shape.width = saferect_shape.h
+			
+			panel:remove(temp_saferect_panel)
+    end
+	]]></script>
+</gui>

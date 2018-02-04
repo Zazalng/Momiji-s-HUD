@@ -1,0 +1,6 @@
+<gui>
+	<preload texture="guis/dlcs/bbq/textures/pd2/blackmarket/icons/masks/chef_hat"/>
+	<preload texture="guis/dlcs/bbq/textures/pd2/blackmarket/icons/masks/firedemon"/>
+	<preload texture="guis/dlcs/bbq/textures/pd2/blackmarket/icons/masks/firemask"/>
+	<preload texture="guis/dlcs/bbq/textures/pd2/blackmarket/icons/masks/gasmask"/>
+</gui>

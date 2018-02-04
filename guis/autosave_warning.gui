@@ -1,0 +1,32 @@
+<gui>
+	<preload texture="guis/textures/icon_saving"/>
+	
+	<panel name_s="panel" layer="1">
+		<text name_s="text" text="managers.localization:text( 'screen_autosaving_warning' )" font_size="24" font_s="fonts/font_medium_shadow_mf" color="Color.white" layer="1" wrap="true" word_wrap="true"/>
+		<bitmap name_s="indicator" texture_s="guis/textures/icon_saving" layer="1" />
+	</panel>
+
+	<script><![CDATA[
+
+function setup( o )
+	-- text:set_text( string.upper( text:text() ) )
+	local text_x, text_y, text_w, text_h = text:text_rect()
+
+	text_x = ( panel:w() - text_w ) / 2
+	text_y = ( panel:h() - text_h ) / 2
+	
+	indicator:set_center( panel:center() )
+
+	text:set_shape( text_x, text_y, text_w, text_h )
+	indicator:set_visible( SystemInfo:platform() == Idstring( "X360" ) or SystemInfo:platform() == Idstring( "XB1" ) or SystemInfo:platform() == Idstring( "PS4" ) )
+	indicator:set_top( text:bottom() + 24 )
+	indicator:set_center_x( text:center_x() )
+end
+
+function set_fade( o, fade )
+	panel:set_alpha( fade )
+	-- text:set_color( text:color():with_alpha( fade ) )
+end
+
+	]]></script>
+</gui>

@@ -1,0 +1,6 @@
+<gui>
+	<preload texture="guis/dlcs/the_bomb/textures/pd2/blackmarket/icons/masks/doctor"/>
+	<preload texture="guis/dlcs/the_bomb/textures/pd2/blackmarket/icons/masks/lady_butcher"/>
+	<preload texture="guis/dlcs/the_bomb/textures/pd2/blackmarket/icons/masks/tech_lion"/>
+	<preload texture="guis/dlcs/the_bomb/textures/pd2/blackmarket/icons/masks/butcher"/>
+</gui>

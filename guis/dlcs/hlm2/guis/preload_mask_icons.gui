@@ -1,0 +1,11 @@
+<gui>
+	<preload texture="guis/dlcs/hlm2/textures/pd2/blackmarket/icons/characters/jacket"/>
+	<preload texture="guis/dlcs/hlm2/textures/pd2/blackmarket/icons/masks/alex"/>
+	<preload texture="guis/dlcs/hlm2/textures/pd2/blackmarket/icons/masks/biker"/>
+	<preload texture="guis/dlcs/hlm2/textures/pd2/blackmarket/icons/masks/corey"/>
+	<preload texture="guis/dlcs/hlm2/textures/pd2/blackmarket/icons/masks/jake"/>
+	<preload texture="guis/dlcs/hlm2/textures/pd2/blackmarket/icons/masks/richard_begins"/>
+	<preload texture="guis/dlcs/hlm2/textures/pd2/blackmarket/icons/masks/richard_returns"/>
+	<preload texture="guis/dlcs/hlm2/textures/pd2/blackmarket/icons/masks/richter"/>
+	<preload texture="guis/dlcs/hlm2/textures/pd2/blackmarket/icons/masks/tonys_revenge"/>
+</gui>

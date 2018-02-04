@@ -1,0 +1,6 @@
+<gui>
+	<preload texture="guis/dlcs/speedrunners/textures/pd2/blackmarket/icons/masks/speedrunner"/>
+	<preload texture="guis/dlcs/speedrunners/textures/pd2/blackmarket/icons/masks/hothead"/>
+	<preload texture="guis/dlcs/speedrunners/textures/pd2/blackmarket/icons/masks/falcon"/>
+	<preload texture="guis/dlcs/speedrunners/textures/pd2/blackmarket/icons/masks/unic"/>
+</gui>

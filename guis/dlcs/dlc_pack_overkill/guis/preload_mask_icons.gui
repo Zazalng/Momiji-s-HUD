@@ -1,0 +1,7 @@
+<gui>
+	<preload texture="guis/dlcs/dlc_pack_overkill/textures/pd2/blackmarket/icons/masks/dallas_glow"/>
+	<preload texture="guis/dlcs/dlc_pack_overkill/textures/pd2/blackmarket/icons/masks/chains_glow"/>
+	<preload texture="guis/dlcs/dlc_pack_overkill/textures/pd2/blackmarket/icons/masks/wolf_glow"/>
+	<preload texture="guis/dlcs/dlc_pack_overkill/textures/pd2/blackmarket/icons/masks/hoxton_glow"/>
+	<preload texture="guis/dlcs/dlc_pack_overkill/textures/pd2/blackmarket/icons/masks/the_overkill_mask"/>
+</gui>

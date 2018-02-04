@@ -1,0 +1,11 @@
+<gui>
+	<preload texture="guis/dlcs/character_pack_clover/textures/pd2/blackmarket/icons/characters/female_1"/>
+
+	<preload texture="guis/dlcs/character_pack_clover/textures/pd2/blackmarket/icons/masks/anubis"/>
+	<preload texture="guis/dlcs/character_pack_clover/textures/pd2/blackmarket/icons/masks/cursed_crown"/>
+	<preload texture="guis/dlcs/character_pack_clover/textures/pd2/blackmarket/icons/masks/msk_grizel"/>
+	<preload texture="guis/dlcs/character_pack_clover/textures/pd2/blackmarket/icons/masks/medusa"/>
+	<preload texture="guis/dlcs/character_pack_clover/textures/pd2/blackmarket/icons/masks/pazuzu"/>
+	
+	<preload texture="guis/dlcs/character_pack_clover/textures/pd2/blackmarket/icons/masks/grizel_clean"/>
+</gui>

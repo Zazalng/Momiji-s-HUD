@@ -1,0 +1,214 @@
+<gui>
+	<!--<preload font="fonts/font_fortress_22"/>-->
+	<panel name_s="panel" layer="tweak_data.gui.DIALOG_LAYER">
+		<rect name_s="bg_frame" color="Color.black:with_alpha(0.75)" layer="1"/>
+		<rect name_s="bg" color="Color.black:with_alpha(0.5)" layer="0"/>
+		<text name_s="title" font_s="fonts/font_medium_shadow_mf" color="tweak_data.dialog.TITLE_TEXT_COLOR" layer="1" wrap="true" word_wrap="true"/>
+		<text name_s="text" font_s="fonts/font_medium_shadow_mf" color="tweak_data.dialog.TEXT_COLOR" layer="1" wrap="true" word_wrap="true"/>
+		<bitmap visible="false" name_s="indicator" texture_s="guis/textures/icon_loading" layer="1"/>
+		
+		<panel name_s="button_list_panel" layer="1"/>
+		<rect name_s="align_line" visible="false" layer="1" w="2" color="tweak_data.dialog.TEXT_COLOR"/>
+	</panel>
+
+	<script><![CDATA[
+local _fade = 0
+local _focus_button
+local _target_alpha = {}
+
+function setup( o, data )
+	_target_alpha[ bg_frame:key() ] = 0.75
+	_target_alpha[ bg:key() ] = 0.5
+	
+	title:set_font( Idstring( tweak_data.dialog.FONT ) )
+	if( data.title ) then
+		set_title( o, data.title, data.no_upper )
+	end
+
+	text:set_font( Idstring( tweak_data.dialog.FONT ) )
+	if( data.text ) then
+		set_text( o, data.text, data.no_upper )
+	end
+
+	-- panel:set_debug( true )
+	
+	local button_list = data.button_list
+	local button_text_config = { name = "button_text", font = tweak_data.dialog.FONT, vertical = "center", layer = 1, color = tweak_data.dialog.BUTTON_TEXT_COLOR, wrap="true", word_wrap="true" }
+
+	if( data.button_list ) then
+		for _,button in ipairs( data.button_list ) do
+			local button_panel = button_list_panel:panel()
+
+			button_text_config.text = utf8.to_upper( button.text or "" )
+			-- button_panel:rect( button_rect_config )
+			button_panel:text( button_text_config )
+			
+			-- button_panel:gradient ( { name="button_gradient", visible=false, x = 0, y = 0, w = 100, h = 20, layer = 0, gradient_points = { 0, tweak_data.dialog.BUTTON_TEXT_COLOR, 1 , tweak_data.dialog.BUTTON_TEXT_COLOR:with_alpha( 0 ) } } )
+			button_panel:gradient ( { name="button_gradient", visible=false, x = 0, y = 0, w = 100, h = 20, layer = 0, gradient_points = { 0, tweak_data.menu.highlight_background_color_left, 1 ,  tweak_data.menu.highlight_background_color_right } } )
+		end
+	end
+
+	if( data.button_list ) then
+		set_focus_button( o, data.focus_button )
+	end
+
+	setup_shape( o )
+end
+
+function set_text( o, txt, no_upper )
+	text:set_text( (no_upper and txt) or utf8.to_upper( txt or "" ) )
+end
+
+function set_title( o, txt, no_upper )
+	title:set_text( (no_upper and txt) or utf8.to_upper( txt or "" ) )
+end
+
+function setup_shape( o )
+	-- x, y, w and h is content space which is without the background paddings.
+	local res_w, res_h = RenderSettings.resolution.x, RenderSettings.resolution.y
+	local safe_rect_pixels = managers.viewport:get_safe_rect_pixels()
+	
+	local dlg = tweak_data.dialog
+	-- local w, h, pad = dlg.WIDTH * _fade, dlg.HEIGHT * _fade, dlg.PADDING * _fade
+	local w, h, pad = safe_rect_pixels.width/2 * _fade, dlg.HEIGHT * _fade, dlg.PADDING * _fade
+	local x = ( res_w - w ) / 2
+	local y = ( res_h - h ) / 2
+
+	local title_size = dlg.TITLE_SIZE * _fade
+	local title_text_space = dlg.TITLE_TEXT_SPACING * _fade
+
+	local text_size = dlg.TEXT_SIZE * _fade
+	
+	local text_list_h = 0
+	local button_y = 0
+	local button_list = button_list_panel:children()
+	local button_pad = dlg.BUTTON_PADDING * _fade
+	local button_space = dlg.BUTTON_SPACING * _fade
+	local button_size = dlg.BUTTON_SIZE * _fade
+	local button_h = button_pad * 2 + button_size
+	local button_text_space = dlg.BUTTON_TEXT_SPACING * _fade
+	
+	panel:set_shape( 0, 0, res_w, res_h )
+
+	-- bg:set_shape( x - pad / 2, y - pad / 2, w + pad, h + pad )
+	-- bg_frame:set_shape( x - pad / 2, y - pad / 2, w + pad, h + pad )
+	bg_frame:set_shape( 0, res_h/2 - 120, res_w, 240 )
+
+	title:set_shape( safe_rect_pixels.x + 4, bg_frame:y() + 4, w, title_size )
+	title:set_font_size( title_size )
+	
+	local tx,_,tw,th = title:text_rect()
+	indicator:set_size( th, th )
+	indicator:set_left( tx + tw + 4 )
+	indicator:set_center_y( title:center_y() )
+
+	local _,_,_,t_h = text:text_rect()
+	-- text:set_shape( x, y + title_text_space + title_size, w, t_h )
+	text:set_shape( safe_rect_pixels.x + 4, bg_frame:y() + 4 + title_text_space + title_size, w, t_h + dlg.TEXT_SIZE )
+	-- local _,_,_,t_h = text:text_rect()
+	-- text:set_h( t_h )
+	text:set_font_size( text_size )
+
+	for _,button_panel in ipairs( button_list ) do
+		local button_text = button_panel:child( "button_text" )
+		local button_gradient = button_panel:child( "button_gradient" )
+
+		button_text:set_font_size( button_size )
+		local _1, _2, text_w, text_h = button_text:text_rect()
+
+		button_text:set_shape( button_pad, 0, bg:w()/2, button_size )
+		button_panel:set_shape( 0, button_y, bg:w()/2, text_h )
+		button_gradient:set_center_y( button_text:center_y() )
+		button_gradient:set_left( button_panel:left() )
+		button_gradient:set_height( button_text:height() )
+		button_gradient:set_w( button_panel:w() )
+		
+		button_y = button_y + text_h + button_text_space
+		text_list_h = text_list_h + text_h
+	end
+	
+	align_line:set_h( bg:bottom()-text:bottom() )
+	align_line:set_x( bg:center_x() )
+	align_line:set_y( text:bottom() )	
+	
+	local button_list_h = text_list_h + --[[button_pad * 2 * #button_list +]] button_text_space * ( #button_list - 1 )
+	-- button_list_panel:set_shape( bg:center_x(), y + h - button_h, bg:w()/2, button_list_h )
+	button_list_panel:set_shape(safe_rect_pixels.x  + 4 , y + h - button_h, safe_rect_pixels.width/4, button_list_h )
+	button_list_panel:set_bottom( bg_frame:bottom() - 4 )
+	
+	-- bg:set_size( bg_frame:w() - 4, bg_frame:h() - 4 )
+	bg:set_size( res_w, res_h )
+	bg:set_center( bg_frame:center() )
+end
+
+function set_fade( o, fade )
+	_fade = fade
+	set_alpha( o, fade )
+	setup_shape( o )
+end
+
+function set_alpha( o, alpha )
+	set_alpha_recursive( o, panel, alpha )
+end
+
+function set_alpha_recursive( o, obj, alpha )
+	if( obj.set_color ) then
+		local a = (_target_alpha[ obj:key() ] and _target_alpha[ obj:key() ] * alpha) or alpha
+		obj:set_color( obj:color():with_alpha( a ) )
+	end
+
+	if( obj.children ) then
+		for _,child in ipairs( obj:children() ) do
+			set_alpha_recursive( o, child, alpha )
+		end
+	end
+end
+
+function get_focus_button( o )
+	return _focus_button
+end
+
+function set_focus_button( o, focus_button )
+	if( focus_button ~= _focus_button ) then
+		managers.menu:post_event( "highlight" )
+		if( _focus_button ) then
+			set_button_selected( o, _focus_button, false )
+		end
+
+		set_button_selected( o, focus_button, true )
+
+		_focus_button = focus_button
+	end
+end
+
+function set_button_selected( o, index, is_selected )
+	local button_panel = button_list_panel:child( index - 1 )
+
+	if( button_panel ) then
+		local button_text = button_panel:child( "button_text" )
+		local button_gradient = button_panel:child( "button_gradient" )
+
+		if( is_selected ) then
+			button_text:set_color( tweak_data.dialog.SELECTED_BUTTON_TEXT_COLOR )
+			button_text:set_font( tweak_data.menu.default_font_no_outline_id )
+			button_gradient:set_visible( true )
+		else
+			button_text:set_color( tweak_data.dialog.BUTTON_TEXT_COLOR )
+			button_text:set_font( tweak_data.menu.default_font_id )
+			button_gradient:set_visible( false )
+		end
+	end
+end
+
+function change_focus_button( o, change )
+	local button_count = button_list_panel:num_children()
+	local focus_button = ( _focus_button + change ) % button_count
+
+	if( focus_button == 0 ) then
+		focus_button = button_count
+	end
+
+	set_focus_button( o, focus_button )
+end
+	]]></script>
+</gui>

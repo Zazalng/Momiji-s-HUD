@@ -1,0 +1,5 @@
+<gui>
+	<preload texture="guis/dlcs/character_pack_clover/textures/pd2/blackmarket/icons/weapons/l85a2"/>
+
+	<preload texture="guis/dlcs/character_pack_clover/textures/pd2/blackmarket/icons/melee_weapons/shillelagh"/>
+</gui>

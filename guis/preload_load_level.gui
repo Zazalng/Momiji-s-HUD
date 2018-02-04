@@ -1,0 +1,10 @@
+<gui>
+	<!--<preload texture="guis/textures/stonecold_small_logo"/>-->
+	<preload texture="units/lights/light_omni_shadow_projection_01/default_df"/>
+	<preload texture="units/lights/light_omni_shadow_projection_01_seq/default_df"/>
+	<preload texture="units/lights/light_projection_01/light_projection_01_df"/>
+	<preload texture="units/lights/light_spot_shadow_projection_01/default_df"/>
+	
+	<!-- Loading PD2 -->
+	<preload texture="guis/textures/loading/loading_foreground"/>
+</gui>

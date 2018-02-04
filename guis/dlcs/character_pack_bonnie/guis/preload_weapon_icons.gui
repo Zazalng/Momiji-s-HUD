@@ -1,0 +1,5 @@
+<gui>
+	<preload texture="guis/dlcs/character_pack_bonnie/textures/pd2/blackmarket/icons/weapons/b682"/>
+
+	<preload texture="guis/dlcs/character_pack_bonnie/textures/pd2/blackmarket/icons/melee_weapons/whiskey"/>
+</gui>

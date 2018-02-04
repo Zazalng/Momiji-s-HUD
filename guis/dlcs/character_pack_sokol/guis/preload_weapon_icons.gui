@@ -1,0 +1,4 @@
+<gui>
+	<preload texture="guis/dlcs/character_pack_sokol/textures/pd2/blackmarket/icons/weapons/asval"/>
+	<preload texture="guis/dlcs/character_pack_sokol/textures/pd2/blackmarket/icons/melee_weapons/hockey"/>
+</gui>

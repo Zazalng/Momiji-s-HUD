@@ -1,0 +1,51 @@
+<gui>
+	<!-- <preload texture="guis/textures/pd2/blackmarket/select_box"/> -->
+	<preload texture="guis/textures/pd2/blackmarket/stat_plusminus"/>
+	
+	
+	<preload texture="guis/textures/pd2/blackmarket/maskmod_empty"/>
+	<preload texture="guis/textures/pd2/blackmarket/inv_detection_meter"/>
+	<preload texture="guis/textures/pd2/blackmarket/inv_mod_barrel"/>
+	<preload texture="guis/textures/pd2/blackmarket/inv_mod_barrel_ext"/>
+	<preload texture="guis/textures/pd2/blackmarket/inv_mod_custom"/>
+	<preload texture="guis/textures/pd2/blackmarket/inv_mod_extra"/>
+	<preload texture="guis/textures/pd2/blackmarket/inv_mod_flashlight"/>
+	<preload texture="guis/textures/pd2/blackmarket/inv_mod_foregrip"/>
+	<preload texture="guis/textures/pd2/blackmarket/inv_mod_grip"/>
+	<preload texture="guis/textures/pd2/blackmarket/inv_mod_laser"/>
+	<preload texture="guis/textures/pd2/blackmarket/inv_mod_magazine"/>
+	<preload texture="guis/textures/pd2/blackmarket/inv_mod_scope"/>
+	<preload texture="guis/textures/pd2/blackmarket/inv_mod_silencer"/>
+	<preload texture="guis/textures/pd2/blackmarket/inv_mod_second_sight"/>
+	<preload texture="guis/textures/pd2/blackmarket/inv_mod_slide"/>
+	<preload texture="guis/textures/pd2/blackmarket/inv_mod_stock"/>
+	<preload texture="guis/textures/pd2/blackmarket/inv_mod_autofire"/>
+	<preload texture="guis/textures/pd2/blackmarket/inv_mod_singlefire"/>
+	<preload texture="guis/textures/pd2/blackmarket/inv_mod_ammo_slug"/>
+	<preload texture="guis/textures/pd2/blackmarket/inv_mod_ammo_custom"/>
+	<preload texture="guis/textures/pd2/blackmarket/inv_mod_ammo_explosive"/>
+	<preload texture="guis/textures/pd2/blackmarket/inv_mod_ammo_piercing"/>
+	<preload texture="guis/textures/pd2/blackmarket/inv_mod_ammo_dragons_breath"/>
+	<preload texture="guis/textures/pd2/blackmarket/inv_mod_weapon_cosmetics"/>
+	<preload texture="guis/textures/pd2/blackmarket/inv_mod_bonus"/>
+	<preload texture="guis/textures/pd2/blackmarket/inv_mod_bonus_stats"/>
+	<preload texture="guis/textures/pd2/blackmarket/inv_mod_bonus_team"/>
+	<preload texture="guis/textures/pd2/blackmarket/inv_mod_bayonet"/>
+	<preload texture="guis/textures/pd2/blackmarket/inv_mod_new"/>
+	<preload texture="guis/textures/pd2/blackmarket/inv_newdrop"/>
+	
+	<preload texture="guis/textures/pd2/blackmarket/xp_drop"/>
+	<preload texture="guis/textures/pd2/blackmarket/cash_drop"/>
+	<preload texture="guis/textures/pd2/blackmarket/level_lock"/>
+	<preload texture="guis/textures/pd2/blackmarket/money_lock"/>
+	<preload texture="guis/textures/pd2/blackmarket/important_lock"/>
+	<preload texture="guis/textures/pd2/lock_incompatible"/>
+	<preload texture="guis/textures/pd2/lock_level"/>
+	<preload texture="guis/textures/pd2/lock_skill"/>
+	<preload texture="guis/textures/pd2/lock_dlc"/>
+	<preload texture="guis/textures/pd2/lock_community"/>
+	<preload texture="guis/textures/pd2/lock_infamy"/>
+	
+	<preload texture="guis/textures/pd2/skilltree/padlock"/>
+	<preload texture="guis/textures/pd2/endscreen/exp_ring"/>
+</gui>

@@ -1,0 +1,5 @@
+<gui> 
+	<preload texture="guis/dlcs/dragon/textures/pd2/blackmarket/icons/characters/dragon"/>
+	<preload texture="guis/dlcs/dragon/textures/pd2/blackmarket/icons/masks/jiro"/>
+	<preload texture="guis/dlcs/dragon/textures/pd2/blackmarket/icons/masks/jiro_begins"/>
+</gui> 

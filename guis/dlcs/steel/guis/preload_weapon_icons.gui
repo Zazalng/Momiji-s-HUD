@@ -1,0 +1,10 @@
+<gui> 
+	<preload texture="guis/dlcs/steel/textures/pd2/blackmarket/icons/weapons/arblast"/>
+	<preload texture="guis/dlcs/steel/textures/pd2/blackmarket/icons/weapons/frankish"/>
+	<preload texture="guis/dlcs/steel/textures/pd2/blackmarket/icons/weapons/long"/>
+	
+	<preload texture="guis/dlcs/steel/textures/pd2/blackmarket/icons/melee_weapons/beardy"/>
+	<preload texture="guis/dlcs/steel/textures/pd2/blackmarket/icons/melee_weapons/buck"/>
+	<preload texture="guis/dlcs/steel/textures/pd2/blackmarket/icons/melee_weapons/great"/>
+	<preload texture="guis/dlcs/steel/textures/pd2/blackmarket/icons/melee_weapons/morning"/>
+</gui> 

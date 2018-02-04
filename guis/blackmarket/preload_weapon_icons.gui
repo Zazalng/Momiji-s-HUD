@@ -1,0 +1,71 @@
+<gui>
+<!--
+	<preload texture="guis/textures/pd2/weapons/primary_ak5"/>
+	<preload texture="guis/textures/pd2/weapons/primary_ak74"/>
+	<preload texture="guis/textures/pd2/weapons/primary_akm"/>
+	<preload texture="guis/textures/pd2/weapons/primary_amcar"/>
+	<preload texture="guis/textures/pd2/weapons/primary_aug"/>
+	<preload texture="guis/textures/pd2/weapons/primary_g36"/>
+	<preload texture="guis/textures/pd2/weapons/primary_huntsman"/>
+	<preload texture="guis/textures/pd2/weapons/primary_m16"/>
+	<preload texture="guis/textures/pd2/weapons/primary_new_m4"/>
+	<preload texture="guis/textures/pd2/weapons/primary_new_m14"/>
+	<preload texture="guis/textures/pd2/weapons/primary_r870"/>
+	<preload texture="guis/textures/pd2/weapons/primary_saiga"/>
+	<preload texture="guis/textures/pd2/weapons/primary_saw"/>
+	<preload texture="guis/textures/pd2/weapons/primary_serbu"/>
+	<preload texture="guis/textures/pd2/weapons/secondary_akmsu"/>
+	<preload texture="guis/textures/pd2/weapons/secondary_b92fs"/>
+	<preload texture="guis/textures/pd2/weapons/secondary_colt_1911"/>
+	<preload texture="guis/textures/pd2/weapons/secondary_deagle"/>
+	<preload texture="guis/textures/pd2/weapons/secondary_glock_17"/>
+	<preload texture="guis/textures/pd2/weapons/secondary_glock_18c"/>
+	<preload texture="guis/textures/pd2/weapons/secondary_mac10"/>
+	<preload texture="guis/textures/pd2/weapons/secondary_mp9"/>
+	<preload texture="guis/textures/pd2/weapons/secondary_new_mp5"/>
+	<preload texture="guis/textures/pd2/weapons/secondary_new_raging_bull"/>
+	<preload texture="guis/textures/pd2/weapons/secondary_olympic"/>
+	<preload texture="guis/textures/pd2/weapons/secondary_p90"/>
+	-->
+	<preload texture="guis/textures/pd2/blackmarket/icons/weapons/ak5"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/weapons/ak74"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/weapons/akm"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/weapons/amcar"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/weapons/aug"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/weapons/g36"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/weapons/huntsman"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/weapons/m16"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/weapons/new_m4"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/weapons/new_m14"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/weapons/r870"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/weapons/saiga"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/weapons/saw"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/weapons/serbu"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/weapons/akmsu"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/weapons/b92fs"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/weapons/colt_1911"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/weapons/deagle"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/weapons/glock_17"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/weapons/glock_18c"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/weapons/mac10"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/weapons/mp9"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/weapons/new_mp5"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/weapons/new_raging_bull"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/weapons/olympic"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/weapons/p90"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/weapons/usp"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/weapons/g22c"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/weapons/spas12"/>
+	
+	<preload texture="guis/textures/pd2/blackmarket/icons/weapons/akm_gold"/>
+	
+	<preload texture="guis/textures/pd2/blackmarket/icons/weapons/g26"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/weapons/jowi"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/weapons/x_1911"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/weapons/x_b92fs"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/weapons/x_deagle"/>
+	
+	<preload texture="guis/textures/pd2/blackmarket/icons/melee_weapons/fists"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/melee_weapons/weapon"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/melee_weapons/kabartanto"/>
+</gui>

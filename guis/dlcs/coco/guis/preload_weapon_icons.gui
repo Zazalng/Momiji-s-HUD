@@ -1,0 +1,5 @@
+<gui> 
+	<preload texture="guis/dlcs/coco/textures/pd2/blackmarket/icons/weapons/sr2"/>
+	<preload texture="guis/dlcs/coco/textures/pd2/blackmarket/icons/weapons/x_sr2"/>
+	<preload texture="guis/dlcs/coco/textures/pd2/blackmarket/icons/melee_weapons/ballistic"/>
+</gui> 

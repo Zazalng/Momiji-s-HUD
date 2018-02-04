@@ -1,0 +1,24 @@
+<gui>
+	<preload texture="units/world/architecture/secret_stash/props_textures/security_station_gui_df"/>
+	<preload texture="units/world/architecture/secret_stash/props_textures/security_station_locked_df"/>
+	<preload texture="units/world/architecture/secret_stash/props_textures/security_station_unlocked_df"/>
+			
+	<panel name_s="panel" halign_s="grow" valign_s="grow">
+		<text name_s="timer1_title" visible="true" color="Color( 1, 1, 1 )" font_s="fonts/font_medium_shadow_mf" text_s="TITLE" align_s="left" vertical_s="top" layer="2" font_size="2" render_template_s="OverlayVertexColorTextured"/>
+		<bitmap name_s="timer_icon1" texture_s="units/world/architecture/secret_stash/props_textures/security_station_locked_df" layer="2" color="Color( 1, 1, 1 )" w="64" h="64"/>
+		<rect name_s="timer1" color="Color( 1, 1, 1 )" vertical_s="center" layer="3"/>
+		<rect name_s="timer1_background" color="Color(0.5, 0, 0, 0)" vertical_s="center" layer="2"/>
+		<text name_s="timer2_title" visible="true" color="Color( 1, 1, 1 )" font_s="fonts/font_medium_shadow_mf" text_s="TITLE" align_s="left" vertical_s="top" layer="2" font_size="2" render_template_s="OverlayVertexColorTextured"/>
+		<bitmap name_s="timer_icon2" texture_s="units/world/architecture/secret_stash/props_textures/security_station_locked_df" layer="2" color="Color( 1, 1, 1 )" w="64" h="64"/>
+		<rect name_s="timer2" color="Color( 1, 1, 1 )" vertical_s="center" layer="3"/>
+		<rect name_s="timer2_background" color="Color(0.5, 0, 0, 0)" vertical_s="center" layer="2"/>
+		<text name_s="timer3_title" visible="true" color="Color( 1, 1, 1 )" font_s="fonts/font_medium_shadow_mf" text_s="TITLE" align_s="left" vertical_s="top" layer="2" font_size="2" render_template_s="OverlayVertexColorTextured"/>
+		<bitmap name_s="timer_icon3" texture_s="units/world/architecture/secret_stash/props_textures/security_station_locked_df" layer="2" color="Color( 1, 1, 1 )" w="64" h="64"/>
+		<rect name_s="timer3" color="tweak_data.hud.prime_color" vertical_s="center" layer="3"/>
+		<rect name_s="timer3_background" color="Color(0.5, 0, 0, 0)" vertical_s="center" layer="2"/>
+		<bitmap name_s="screen_background" texture_s="units/world/architecture/secret_stash/props_textures/security_station_gui_df" layer="1" color="Color( 1, 1, 1 )" w="256" h="256"/>
+		<text name_s="working_text" visible="false" color="Color( 1, 1, 1 )" font_s="fonts/font_medium_shadow_mf" text_s="WORKING" align_s="center" vertical_s="center" layer="2" font_size="2" render_template_s="OverlayVertexColorTextured"/>
+		<text name_s="time_header_text" visible="false" color="Color( 1, 1, 1 )" font_s="fonts/font_medium_shadow_mf" text_id_s="prop_timer_gui_estimated_time" align_s="center" vertical_s="center" layer="2" font_size="2" render_template_s="OverlayVertexColorTextured"/>
+		<text name_s="time_text" visible="false" color="Color( 1, 1, 1 )" font_s="fonts/font_medium_shadow_mf" text_s="48 SECONDS" align_s="center" vertical_s="center" layer="2" font_size="2" render_template_s="OverlayVertexColorTextured"/>
+    </panel>
+</gui>

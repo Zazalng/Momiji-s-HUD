@@ -1,0 +1,33 @@
+<gui>
+	<!--<preload font="fonts/font_medium_shadow_mf"/>-->
+	<preload texture="guis/textures/icon_saving"/>
+	
+	<panel name_s="panel" layer="tweak_data.gui.SAVEFILE_LAYER">
+		<rect name_s="background" visible="false" color="Color.black:with_alpha( 0.5 )"/>
+		<text x="10" y="5" name_s="gui_text" font_s="fonts/font_large_mf" font_size="32" color="Color.white" align_s="left" vertical_s="center" layer="1" w="400" h="32"/>
+		<bitmap name_s="indicator" texture_s="guis/textures/icon_saving" layer="1" />
+	</panel>
+
+	<script>
+	<![CDATA[
+		function set_text( o, text )
+			local y_pos = gui_text:parent():h()
+			indicator:set_bottom( y_pos )
+			gui_text:set_text( text )
+			gui_text:set_bottom( y_pos )
+			gui_text:set_left( indicator:right() + 8 )
+			local x, y, w, h = gui_text:text_rect()
+			background:set_size( 10 * 2 + w, 5 * 2 + h )
+			background:set_center_y( gui_text:center_y() )
+		end
+		
+		function saving( o )
+			local dt = coroutine.yield()
+			while managers.savefile._show_gui_time or managers.savefile._hide_gui_time do
+				local dt = coroutine.yield()
+				indicator:rotate( 180 * dt )
+			end
+		end
+	]]>
+	</script>
+</gui>

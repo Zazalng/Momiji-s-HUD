@@ -1,0 +1,8 @@
+<gui>
+	<preload texture="guis/dlcs/dlc_arena/textures/pd2/blackmarket/icons/weapons/mateba"/>
+	
+	<preload texture="guis/dlcs/dlc_arena/textures/pd2/blackmarket/icons/melee_weapons/detector"/>
+	<preload texture="guis/dlcs/dlc_arena/textures/pd2/blackmarket/icons/melee_weapons/microphone"/>
+	<preload texture="guis/dlcs/dlc_arena/textures/pd2/blackmarket/icons/melee_weapons/micstand"/>
+	<preload texture="guis/dlcs/dlc_arena/textures/pd2/blackmarket/icons/melee_weapons/oldbaton"/>
+</gui>

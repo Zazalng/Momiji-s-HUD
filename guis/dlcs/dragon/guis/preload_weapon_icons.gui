@@ -1,0 +1,4 @@
+<gui> 
+	<preload texture="guis/dlcs/dragon/textures/pd2/blackmarket/icons/weapons/baka"/>
+	<preload texture="guis/dlcs/dragon/textures/pd2/blackmarket/icons/melee_weapons/sandsteel"/>
+</gui> 

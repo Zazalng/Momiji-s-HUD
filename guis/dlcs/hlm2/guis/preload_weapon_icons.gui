@@ -1,0 +1,4 @@
+<gui>
+	<preload texture="guis/dlcs/hlm2/textures/pd2/blackmarket/icons/weapons/cobray"/>
+	<preload texture="guis/dlcs/hlm2/textures/pd2/blackmarket/icons/melee_weapons/hammer"/>
+</gui>

@@ -1,0 +1,4 @@
+<gui>
+	<preload texture="guis/dlcs/dlc_pack_overkill/textures/pd2/blackmarket/icons/weapons/m134"/>
+	<preload texture="guis/dlcs/dlc_pack_overkill/textures/pd2/blackmarket/icons/weapons/rpg7"/>
+</gui>

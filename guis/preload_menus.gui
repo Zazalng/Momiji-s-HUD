@@ -1,0 +1,47 @@
+<gui>
+	<preload texture="guis/textures/game_small_logo"/>
+	<preload texture="guis/textures/icon_loading"/>
+	<preload texture="guis/textures/hud_icons"/>
+	<preload texture="guis/textures/menu_icons"/>
+	<preload texture="guis/textures/menu_arrows"/>
+	<preload texture="guis/textures/menu_tickbox"/>
+	<preload texture="guis/textures/menu_radiobutton"/>
+	<preload texture="guis/textures/icon_star"/>
+	<preload texture="guis/textures/mouse_pointer"/>
+	<preload texture="guis/textures/controller"/>
+	
+	<preload texture="guis/textures/scroll_up"/>
+	<preload texture="guis/textures/scroll_down"/>
+	<preload texture="guis/textures/pd2/scrollbar_arrows"/>
+	
+	<preload texture="guis/textures/pd2/icon_reward"/>
+	<preload texture="guis/textures/pd2/icon_modbox_df"/>
+	
+	<preload texture="guis/textures/menu_selected"/>
+	<preload texture="guis/textures/menu_unselected"/>
+	<preload texture="guis/textures/headershadow"/>
+	<preload texture="guis/textures/headershadowdown"/>
+	<preload texture="guis/textures/textboxbg"/>
+	<preload texture="guis/textures/scrollarrow"/>
+	<preload texture="guis/textures/scroll_items"/>
+	<preload texture="guis/textures/circlefill"/>
+	<preload texture="guis/textures/menu_singletick"/>
+	
+	<preload texture="guis/textures/pd2/weapons"/>
+	<preload texture="guis/textures/pd2/shared_lines"/>
+	<preload texture="guis/textures/pd2/shared_tab_box"/>
+	<preload texture="guis/textures/pd2/hud_difficultymarkers"/>
+	<preload texture="guis/textures/pd2/mission_briefing/difficulty_icons"/>
+	<preload texture="guis/textures/pd2/cn_minighost"/>
+	
+	<preload texture="guis/textures/pd2/shared_wallet_symbol"/>
+	<preload texture="guis/textures/pd2/shared_level_symbol"/>
+	<preload texture="guis/textures/pd2/shared_skillpoint_symbol"/>
+	
+	<preload texture="guis/textures/pd2/level_ring_small"/>
+	<preload texture="guis/textures/pd2/level_ring_potential_small"/>
+	<preload texture="guis/textures/test_blur_df"/>
+
+	<preload texture="guis/textures/pd2/infamous_symbol"/>
+	<preload texture="guis/textures/pd2/jukebox_playing"/>
+</gui>

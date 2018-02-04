@@ -1,0 +1,11 @@
+<gui>
+	<preload texture="guis/dlcs/gage_pack_assault/textures/pd2/blackmarket/icons/weapons/famas"/>
+	<preload texture="guis/dlcs/gage_pack_assault/textures/pd2/blackmarket/icons/weapons/g3"/>
+	<preload texture="guis/dlcs/gage_pack_assault/textures/pd2/blackmarket/icons/weapons/galil"/>
+	<preload texture="guis/dlcs/gage_pack_assault/textures/pd2/blackmarket/icons/weapons/gre_m79"/>
+	
+	<preload texture="guis/dlcs/gage_pack_assault/textures/pd2/blackmarket/icons/melee_weapons/x46"/>
+	<preload texture="guis/dlcs/gage_pack_assault/textures/pd2/blackmarket/icons/melee_weapons/dingdong"/>
+	<preload texture="guis/dlcs/gage_pack_assault/textures/pd2/blackmarket/icons/melee_weapons/bayonet"/>
+	<preload texture="guis/dlcs/gage_pack_assault/textures/pd2/blackmarket/icons/melee_weapons/bullseye"/>
+</gui>

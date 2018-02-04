@@ -1,0 +1,77 @@
+<gui>
+	<preload texture="guis/textures/menu/missing_level"/>
+	<preload texture="guis/textures/empty"/>
+	
+	<preload texture="guis/textures/505games_df"/>
+	<preload texture="guis/textures/overkill_df"/>
+	<preload texture="guis/textures/wwise_df"/>
+	<preload texture="guis/textures/physx_df"/>
+	<preload texture="guis/textures/bink_df"/>
+	<preload texture="guis/textures/equilibrium_entertainment"/>
+	<preload texture="guis/textures/stabreeze_studios"/>
+	<preload texture="guis/textures/payday_webseries"/>
+	<preload texture="guis/textures/lightstone_entertainment"/>
+
+	<preload texture="guis/textures/crimenet_map"/>
+	<preload texture="guis/textures/crimenet_map_dot"/>
+	<preload texture="guis/textures/crimenet_map_rasteroverlay"/>
+	<preload texture="guis/textures/crimenet_map_vignette"/>
+	<preload texture="guis/textures/crimenet_map_smallgrid"/>
+	<preload texture="guis/textures/crimenet_map_biggrid"/>
+	<preload texture="guis/textures/crimenet_map_circle"/>
+	<preload texture="guis/textures/pd2/crimenet_marker"/>
+	<preload texture="guis/textures/pd2/crimenet_timer"/>
+	<preload texture="guis/textures/pd2/crimenet_star"/>
+	<preload texture="guis/textures/pd2/crimenet_peerflag"/>
+	<preload texture="guis/textures/pd2/codex_pages"/>
+	
+	<preload texture="guis/textures/pd2/crimenet_challenge"/>
+	<preload texture="guis/textures/pd2/crimenet_casino"/>
+	<preload texture="guis/textures/pd2/crimenet_marker_codex"/>
+	<preload texture="guis/textures/pd2/crimenet_marker_buy"/>
+	<preload texture="guis/textures/pd2/crimenet_marker_join"/>
+	<preload texture="guis/textures/pd2/crimenet_marker_join_pro"/>
+	<preload texture="guis/textures/pd2/crimenet_marker_host"/>
+	<preload texture="guis/textures/pd2/crimenet_marker_host_pro"/>
+	<preload texture="guis/textures/pd2/crimenet_marker_peerflag"/>
+	<preload texture="guis/textures/pd2/crimenet_marker_gage"/>
+	<preload texture="guis/textures/pd2/cn_miniskull"/>
+	<preload texture="guis/textures/pd2/cn_kick_marker"/>
+	<preload texture="guis/textures/pd2/cn_minighost"/>
+	<preload texture="guis/textures/pd2/crimenet_marker_pro_outline"/>
+	<preload texture="guis/textures/pd2/crimenet_marker_glow"/>
+	<preload texture="guis/textures/pd2/hot_cold_glow"/>
+	<preload texture="guis/textures/pd2/cn_playstyle_loud"/>
+	<preload texture="guis/textures/pd2/cn_playstyle_stealth"/>
+	<preload texture="guis/textures/pd2/cn_votekick_marker"/>
+#IF DLC_JERRY {
+	<preload texture="guis/textures/pd2/cn_icon_cs"/>
+}
+	<preload texture="guis/textures/pd2/crimenet_legend_join"/>
+	<preload texture="guis/textures/pd2/crimenet_legend_host"/>
+	<preload texture="guis/textures/pd2/crimenet_legend_payclass"/>
+	<preload texture="guis/textures/pd2/crimenet_legend_risklevel"/>
+
+	<preload texture="guis/textures/pd2/skilltree/bg_mastermind"/>
+	<preload texture="guis/textures/pd2/skilltree/bg_enforcer"/>
+	<preload texture="guis/textures/pd2/skilltree/bg_technician"/>
+	<preload texture="guis/textures/pd2/skilltree/bg_ghost"/>
+	<preload texture="guis/textures/pd2/skilltree/bg_fugitive"/>
+	<preload texture="guis/textures/pd2/skilltree/icons_atlas"/>
+	<preload texture="guis/textures/pd2/skilltree/marker_basic"/>
+	<preload texture="guis/textures/pd2/skilltree/marker_pro"/>
+	<preload texture="guis/textures/pd2/skilltree/selectionframe"/>
+	<preload texture="guis/textures/pd2/skilltree/padlock"/>
+	<preload texture="guis/textures/pd2/skilltree/dottedline"/>
+	<preload texture="guis/textures/pd2/skilltree/ace"/>
+	
+	<preload texture="guis/textures/pd2/specialization/icons_atlas"/>
+	<preload texture="guis/textures/pd2/specialization/points_add"/>
+	<preload texture="guis/textures/pd2/specialization/points_reduce"/>
+	<preload texture="guis/textures/pd2/specialization/progress_ring"/>
+	<preload texture="guis/textures/pd2/specialization/perk_icon_card"/>
+	
+	<preload texture="guis/textures/pd2/inv_infamycard_bg"/>
+	<preload texture="guis/textures/pd2/inv_skillcards_icons"/>
+	<preload texture="guis/textures/pd2/mouse_buttons"/>
+</gui>

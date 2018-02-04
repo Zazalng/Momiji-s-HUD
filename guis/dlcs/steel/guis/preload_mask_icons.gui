@@ -1,0 +1,6 @@
+<gui> 
+	<preload texture="guis/dlcs/steel/textures/pd2/blackmarket/icons/masks/agatha_knight"/>
+	<preload texture="guis/dlcs/steel/textures/pd2/blackmarket/icons/masks/agatha_vanguard_veteran"/>
+	<preload texture="guis/dlcs/steel/textures/pd2/blackmarket/icons/masks/mason_knight_veteran"/>
+	<preload texture="guis/dlcs/steel/textures/pd2/blackmarket/icons/masks/mason_vanguard_veteran"/>
+</gui> 

@@ -1,0 +1,12 @@
+<gui>
+	<panel name_s="panel"/>
+	
+	<script><![CDATA[
+		function get_assets_names()
+			local data = 
+			{
+			}
+			return data
+		end
+	]]></script>
+</gui>

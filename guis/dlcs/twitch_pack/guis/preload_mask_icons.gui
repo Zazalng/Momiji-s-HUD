@@ -1,0 +1,4 @@
+<gui>
+	<preload texture="guis/dlcs/twitch_pack/textures/pd2/blackmarket/icons/masks/ancient"/>
+	<preload texture="guis/dlcs/twitch_pack/textures/pd2/blackmarket/icons/masks/twitch_orc"/>
+</gui>

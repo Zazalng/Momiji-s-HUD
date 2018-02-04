@@ -1,0 +1,6 @@
+<gui>
+	<preload texture="guis/dlcs/big_bank/textures/pd2/blackmarket/icons/masks/franklin"/>
+	<preload texture="guis/dlcs/big_bank/textures/pd2/blackmarket/icons/masks/lincoln"/>
+	<preload texture="guis/dlcs/big_bank/textures/pd2/blackmarket/icons/masks/grant"/>
+	<preload texture="guis/dlcs/big_bank/textures/pd2/blackmarket/icons/masks/washington"/>
+</gui>

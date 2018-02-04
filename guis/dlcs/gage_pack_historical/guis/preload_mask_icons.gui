@@ -1,0 +1,6 @@
+<gui>
+	<preload texture="guis/dlcs/gage_pack_historical/textures/pd2/blackmarket/icons/masks/churchill"/>
+	<preload texture="guis/dlcs/gage_pack_historical/textures/pd2/blackmarket/icons/masks/red_hurricane"/>
+	<preload texture="guis/dlcs/gage_pack_historical/textures/pd2/blackmarket/icons/masks/patton"/>
+	<preload texture="guis/dlcs/gage_pack_historical/textures/pd2/blackmarket/icons/masks/de_gaulle"/>
+</gui>

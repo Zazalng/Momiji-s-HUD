@@ -1,0 +1,13 @@
+<gui> 
+	<preload texture="guis/dlcs/humble_summer_2015/textures/pd2/blackmarket/icons/masks/borsuk"/>
+	<preload texture="guis/dlcs/humble_summer_2015/textures/pd2/blackmarket/icons/masks/moon"/>
+	<preload texture="guis/dlcs/humble_summer_2015/textures/pd2/blackmarket/icons/masks/pokachu"/>
+	<preload texture="guis/dlcs/humble_summer_2015/textures/pd2/blackmarket/icons/masks/titan"/>
+	
+	<preload texture="guis/dlcs/humble_summer_2015/textures/pd2/blackmarket/icons/masks/card_jack"/>
+	<preload texture="guis/dlcs/humble_summer_2015/textures/pd2/blackmarket/icons/masks/card_queen"/>
+	<preload texture="guis/dlcs/humble_summer_2015/textures/pd2/blackmarket/icons/masks/card_king"/>
+	<preload texture="guis/dlcs/humble_summer_2015/textures/pd2/blackmarket/icons/masks/card_joker"/>
+	
+	<preload texture="guis/dlcs/humble_summer_2015/textures/pd2/blackmarket/icons/masks/starvr"/>
+</gui> 

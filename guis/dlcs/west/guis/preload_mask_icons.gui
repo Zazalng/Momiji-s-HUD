@@ -1,0 +1,6 @@
+<gui>
+	<preload texture="guis/dlcs/west/textures/pd2/blackmarket/icons/masks/bandit"/>
+	<preload texture="guis/dlcs/west/textures/pd2/blackmarket/icons/masks/bullskull"/>
+	<preload texture="guis/dlcs/west/textures/pd2/blackmarket/icons/masks/kangee"/>
+	<preload texture="guis/dlcs/west/textures/pd2/blackmarket/icons/masks/lone"/>
+</gui>

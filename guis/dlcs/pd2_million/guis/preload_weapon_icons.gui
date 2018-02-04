@@ -1,0 +1,4 @@
+<gui>
+	<preload texture="guis/dlcs/pd2_million/textures/pd2/blackmarket/icons/weapons/judge"/>
+	<preload texture="guis/dlcs/pd2_million/textures/pd2/blackmarket/icons/melee_weapons/moneybundle"/>
+</gui>

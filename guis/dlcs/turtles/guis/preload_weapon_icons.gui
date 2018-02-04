@@ -1,0 +1,9 @@
+<gui> 
+	<preload texture="guis/dlcs/turtles/textures/pd2/blackmarket/icons/weapons/hunter"/>
+	<preload texture="guis/dlcs/turtles/textures/pd2/blackmarket/icons/weapons/polymer"/>
+	<preload texture="guis/dlcs/turtles/textures/pd2/blackmarket/icons/weapons/wa2000"/>
+	<preload texture="guis/dlcs/turtles/textures/pd2/blackmarket/icons/melee_weapons/cqc"/>
+	<preload texture="guis/dlcs/turtles/textures/pd2/blackmarket/icons/melee_weapons/fight"/>
+	<preload texture="guis/dlcs/turtles/textures/pd2/blackmarket/icons/melee_weapons/tiger"/>
+	<preload texture="guis/dlcs/turtles/textures/pd2/blackmarket/icons/melee_weapons/twins"/>
+</gui> 

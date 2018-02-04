@@ -1,0 +1,7 @@
+<gui>
+	<preload texture="guis/dlcs/infamous/textures/pd2/infamous_tree/infamous_tree_atlas"/>
+	<preload texture="guis/dlcs/infamous/textures/pd2/infamous_tree/connector_df"/>
+	<preload texture="guis/dlcs/infamous/textures/pd2/infamous_tree/connector_2_df"/>
+	<preload texture="guis/dlcs/infamous/textures/pd2/infamous_tree/spinner_01_df"/>
+	<preload texture="guis/dlcs/infamous/textures/pd2/infamous_tree/spinner_02_df"/>
+</gui>

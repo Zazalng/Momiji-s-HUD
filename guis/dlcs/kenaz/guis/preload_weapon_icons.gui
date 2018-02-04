@@ -1,0 +1,7 @@
+<gui> 
+	<preload texture="guis/dlcs/kenaz/textures/pd2/blackmarket/icons/weapons/sub2000"/>
+	<preload texture="guis/dlcs/kenaz/textures/pd2/blackmarket/icons/melee_weapons/croupier_rake"/>
+	<preload texture="guis/dlcs/kenaz/textures/pd2/blackmarket/icons/melee_weapons/slot_lever"/>
+	<preload texture="guis/dlcs/kenaz/textures/pd2/blackmarket/icons/melee_weapons/switchblade"/>
+	<preload texture="guis/dlcs/kenaz/textures/pd2/blackmarket/icons/melee_weapons/taser"/>
+</gui> 

@@ -1,0 +1,6 @@
+<gui>
+	<preload texture="guis/dlcs/character_pack_sokol/textures/pd2/blackmarket/icons/characters/sokol"/>
+	
+	<preload texture="guis/dlcs/character_pack_sokol/textures/pd2/blackmarket/icons/masks/sokol"/>
+	<preload texture="guis/dlcs/character_pack_sokol/textures/pd2/blackmarket/icons/masks/sokol_begins"/>
+</gui>

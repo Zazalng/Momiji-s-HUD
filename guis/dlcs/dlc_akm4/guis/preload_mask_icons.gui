@@ -1,0 +1,6 @@
+<gui>
+	<preload texture="guis/dlcs/dlc_akm4/textures/pd2/blackmarket/icons/masks/carnotaurus"/>
+	<preload texture="guis/dlcs/dlc_akm4/textures/pd2/blackmarket/icons/masks/pachy"/>
+	<preload texture="guis/dlcs/dlc_akm4/textures/pd2/blackmarket/icons/masks/triceratops"/>
+	<preload texture="guis/dlcs/dlc_akm4/textures/pd2/blackmarket/icons/masks/velociraptor"/>
+</gui>

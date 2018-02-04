@@ -1,0 +1,4 @@
+<gui>
+	<preload texture="guis/dlcs/coco/textures/pd2/blackmarket/icons/masks/jimmy"/>
+	<preload texture="guis/dlcs/coco/textures/pd2/blackmarket/icons/masks/jimmy_duct"/>
+</gui> 

@@ -1,0 +1,6 @@
+<gui> 
+	<preload texture="guis/dlcs/rip/textures/pd2/blackmarket/icons/characters/bodhi"/>
+	<preload texture="guis/dlcs/rip/textures/pd2/blackmarket/icons/masks/bodhi"/>
+	<preload texture="guis/dlcs/rip/textures/pd2/blackmarket/icons/masks/bodhi_begins"/>
+	<!-- <preload texture="guis/dlcs/rip/textures/pd2/blackmarket/icons/masks/MASK_NAME"/> --> 
+</gui> 

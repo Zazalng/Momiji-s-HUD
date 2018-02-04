@@ -1,0 +1,10 @@
+<gui>
+	<preload texture="guis/dlcs/bbq/textures/pd2/blackmarket/icons/weapons/aa12"/>
+	<preload texture="guis/dlcs/bbq/textures/pd2/blackmarket/icons/weapons/flamethrower_mk2"/>
+	<preload texture="guis/dlcs/bbq/textures/pd2/blackmarket/icons/weapons/m32"/>
+	
+	<preload texture="guis/dlcs/bbq/textures/pd2/blackmarket/icons/melee_weapons/fork"/>
+	<preload texture="guis/dlcs/bbq/textures/pd2/blackmarket/icons/melee_weapons/poker"/>
+	<preload texture="guis/dlcs/bbq/textures/pd2/blackmarket/icons/melee_weapons/spatula"/>
+	<preload texture="guis/dlcs/bbq/textures/pd2/blackmarket/icons/melee_weapons/tenderizer"/>
+</gui>

@@ -1,0 +1,7 @@
+<gui> 
+	<preload texture="guis/dlcs/cash/textures/pd2/blackmarket/icons/rarity_common" /> 
+	<preload texture="guis/dlcs/cash/textures/pd2/blackmarket/icons/rarity_uncommon" /> 
+	<preload texture="guis/dlcs/cash/textures/pd2/blackmarket/icons/rarity_rare" /> 
+	<preload texture="guis/dlcs/cash/textures/pd2/blackmarket/icons/rarity_epic" /> 
+	<preload texture="guis/dlcs/cash/textures/pd2/blackmarket/icons/rarity_legendary" /> 
+</gui> 

@@ -1,0 +1,5 @@
+<gui>
+	<preload texture="guis/dlcs/character_pack_dragan/textures/pd2/blackmarket/icons/weapons/vhs"/>
+	
+	<preload texture="guis/dlcs/character_pack_dragan/textures/pd2/blackmarket/icons/melee_weapons/meat_cleaver"/>
+</gui>

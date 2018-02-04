@@ -1,0 +1,16 @@
+<gui>
+	<preload texture="guis/dlcs/infamous/textures/pd2/blackmarket/icons/masks/aviator"/>
+	<preload texture="guis/dlcs/infamous/textures/pd2/blackmarket/icons/masks/ghost"/>
+	<preload texture="guis/dlcs/infamous/textures/pd2/blackmarket/icons/masks/plague"/>
+	<preload texture="guis/dlcs/infamous/textures/pd2/blackmarket/icons/masks/smoker"/>
+	<preload texture="guis/dlcs/infamous/textures/pd2/blackmarket/icons/masks/welder"/>
+	
+	<preload texture="guis/dlcs/infamous/textures/pd2/blackmarket/icons/masks/balaclava"/>
+	<preload texture="guis/dlcs/infamous/textures/pd2/blackmarket/icons/masks/daft"/>
+	<preload texture="guis/dlcs/infamous/textures/pd2/blackmarket/icons/masks/infamy_hood"/>
+	<preload texture="guis/dlcs/infamous/textures/pd2/blackmarket/icons/masks/infamy_lurker"/>
+	<preload texture="guis/dlcs/infamous/textures/pd2/blackmarket/icons/masks/pain"/>
+	<preload texture="guis/dlcs/infamous/textures/pd2/blackmarket/icons/masks/punk"/>
+	<preload texture="guis/dlcs/infamous/textures/pd2/blackmarket/icons/masks/ranger"/>
+	<preload texture="guis/dlcs/infamous/textures/pd2/blackmarket/icons/masks/destroyer"/>
+</gui>

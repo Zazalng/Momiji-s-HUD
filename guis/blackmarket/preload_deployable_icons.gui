@@ -1,0 +1,21 @@
+<gui>
+	<!--
+	<preload texture="guis/textures/pd2/weapons/deployables/medic_bag"/>
+	<preload texture="guis/textures/pd2/weapons/deployables/doctor_bag"/>
+	<preload texture="guis/textures/pd2/weapons/deployables/ammo_bag"/>
+	<preload texture="guis/textures/pd2/weapons/deployables/trip_mine"/>
+	<preload texture="guis/textures/pd2/weapons/deployables/sentry_gun"/>
+	<preload texture="guis/textures/pd2/weapons/deployables/ecm_jammer"/>
+	-->
+	
+	<preload texture="guis/textures/pd2/blackmarket/icons/deployables/doctor_bag"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/deployables/ammo_bag"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/deployables/trip_mine"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/deployables/sentry_gun"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/deployables/ecm_jammer"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/deployables/armor_kit"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/deployables/bodybags_bag"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/deployables/first_aid_kit"/>
+	
+	
+</gui>

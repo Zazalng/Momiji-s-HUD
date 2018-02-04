@@ -1,0 +1,5 @@
+<gui>
+	<preload texture="guis/dlcs/gage_pack_snp/textures/pd2/blackmarket/icons/weapons/m95"/>
+	<preload texture="guis/dlcs/gage_pack_snp/textures/pd2/blackmarket/icons/weapons/msr"/>
+	<preload texture="guis/dlcs/gage_pack_snp/textures/pd2/blackmarket/icons/weapons/r93"/>
+</gui>

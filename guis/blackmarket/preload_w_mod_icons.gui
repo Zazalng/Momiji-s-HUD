@@ -1,0 +1,33 @@
+<gui>
+	<!--
+	<preload texture="guis/textures/pd2/weapons/mods/slide"/>
+	<preload texture="guis/textures/pd2/weapons/mods/barrel"/>
+	<preload texture="guis/textures/pd2/weapons/mods/barrel_ext"/>
+	<preload texture="guis/textures/pd2/weapons/mods/extra"/>
+	<preload texture="guis/textures/pd2/weapons/mods/foregrip"/>
+	<preload texture="guis/textures/pd2/weapons/mods/gadget"/>
+	<preload texture="guis/textures/pd2/weapons/mods/grip"/>
+	<preload texture="guis/textures/pd2/weapons/mods/lower_reciever"/>
+	<preload texture="guis/textures/pd2/weapons/mods/magazine"/>
+	<preload texture="guis/textures/pd2/weapons/mods/sight"/>
+	<preload texture="guis/textures/pd2/weapons/mods/stock"/>
+	<preload texture="guis/textures/pd2/weapons/mods/upper_reciever"/>
+	<preload texture="guis/textures/pd2/weapons/mods/vertical_grip"/>
+	
+	
+	
+	<preload texture="guis/textures/pd2/blackmarket/icons/mods/slide"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/mods/barrel"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/mods/barrel_ext"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/mods/extra"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/mods/foregrip"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/mods/gadget"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/mods/grip"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/mods/lower_reciever"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/mods/magazine"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/mods/sight"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/mods/stock"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/mods/upper_reciever"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/mods/vertical_grip"/>
+	-->
+</gui>

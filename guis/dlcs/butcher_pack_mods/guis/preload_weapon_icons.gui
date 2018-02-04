@@ -1,0 +1,5 @@
+<gui>
+	<preload texture="guis/dlcs/butcher_pack_mods/textures/pd2/blackmarket/icons/weapons/x_g17"/>
+	<preload texture="guis/dlcs/butcher_pack_mods/textures/pd2/blackmarket/icons/weapons/x_g22c"/>
+	<preload texture="guis/dlcs/butcher_pack_mods/textures/pd2/blackmarket/icons/weapons/x_usp"/>
+</gui>

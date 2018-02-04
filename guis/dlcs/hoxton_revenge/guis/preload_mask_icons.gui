@@ -1,0 +1,4 @@
+<gui>
+	<preload texture="guis/dlcs/hoxton_revenge/textures/pd2/blackmarket/icons/masks/hectors_helmet"/>
+	<preload texture="guis/dlcs/hoxton_revenge/textures/pd2/blackmarket/icons/masks/old_hoxton_begins"/>
+</gui>

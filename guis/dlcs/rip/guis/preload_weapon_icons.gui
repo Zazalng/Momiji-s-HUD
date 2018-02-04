@@ -1,0 +1,6 @@
+<gui> 
+	<preload texture="guis/dlcs/rip/textures/pd2/blackmarket/icons/weapons/sparrow"/>
+	<preload texture="guis/dlcs/rip/textures/pd2/blackmarket/icons/melee_weapons/boxcutter"/>
+	<!-- <preload texture="guis/dlcs/rip/textures/pd2/blackmarket/icons/weapons/WEAPON_NAME"/> --> 
+	<!-- <preload texture="guis/dlcs/rip/textures/pd2/blackmarket/icons/melee_weapons/MELEE_WEAPON_NAME"/> --> 
+</gui> 

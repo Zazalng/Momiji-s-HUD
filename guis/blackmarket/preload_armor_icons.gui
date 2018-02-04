@@ -1,0 +1,9 @@
+<gui>
+	<preload texture="guis/textures/pd2/blackmarket/icons/armors/level_1"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/armors/level_2"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/armors/level_3"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/armors/level_4"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/armors/level_5"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/armors/level_6"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/armors/level_7"/>
+</gui>

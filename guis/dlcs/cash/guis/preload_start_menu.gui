@@ -1,0 +1,13 @@
+<gui>
+	<preload texture="guis/dlcs/cash/textures/pd2/safe_raffle/bg_black" />
+	<preload texture="guis/dlcs/cash/textures/pd2/safe_raffle/header_col_common" />
+	<preload texture="guis/dlcs/cash/textures/pd2/safe_raffle/header_col_epic" />
+	<preload texture="guis/dlcs/cash/textures/pd2/safe_raffle/header_col_legendary" />
+	<preload texture="guis/dlcs/cash/textures/pd2/safe_raffle/header_col_rare" />
+	<preload texture="guis/dlcs/cash/textures/pd2/safe_raffle/header_col_uncommon" />
+	<preload texture="guis/dlcs/cash/textures/pd2/safe_raffle/header_white" />
+	<preload texture="guis/dlcs/cash/textures/pd2/safe_raffle/scroller_edges" />
+	<preload texture="guis/dlcs/cash/textures/pd2/safe_raffle/scroller_line" />
+	<preload texture="guis/dlcs/cash/textures/pd2/safe_raffle/statboost_icon" />
+	<preload texture="guis/dlcs/cash/textures/pd2/safe_raffle/teamboost_icon" />
+</gui>

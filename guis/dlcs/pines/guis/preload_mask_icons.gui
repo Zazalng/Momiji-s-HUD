@@ -1,0 +1,7 @@
+<gui>
+	<preload texture="guis/dlcs/pines/textures/pd2/blackmarket/icons/masks/almirs_beard"/>
+	<preload texture="guis/dlcs/pines/textures/pd2/blackmarket/icons/masks/krampus"/>
+	<preload texture="guis/dlcs/pines/textures/pd2/blackmarket/icons/masks/mrs_claus"/>
+	<preload texture="guis/dlcs/pines/textures/pd2/blackmarket/icons/masks/robo_santa"/>
+	<preload texture="guis/dlcs/pines/textures/pd2/blackmarket/icons/masks/strinch"/>
+</gui>

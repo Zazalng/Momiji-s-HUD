@@ -1,0 +1,7 @@
+<gui>
+	<preload texture="guis/dlcs/coco/textures/pd2/hud_absorb_health"/>
+	<preload texture="guis/dlcs/coco/textures/pd2/hud_absorb_shield"/>
+	<preload texture="guis/dlcs/coco/textures/pd2/hud_absorb_stack_bg"/>
+	<preload texture="guis/dlcs/coco/textures/pd2/hud_absorb_stack_fg"/>
+	<preload texture="guis/dlcs/coco/textures/pd2/hud_absorb_stack_icon_01"/>
+</gui>

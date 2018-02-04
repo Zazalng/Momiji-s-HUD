@@ -1,0 +1,5 @@
+<gui>
+	<preload texture="guis/dlcs/pd2_goty/textures/pd2/blackmarket/icons/masks/arch_nemesis"/>
+	<preload texture="guis/dlcs/pd2_goty/textures/pd2/blackmarket/icons/masks/nun_town"/>
+	<preload texture="guis/dlcs/pd2_goty/textures/pd2/blackmarket/icons/masks/robo_arnold"/>
+</gui>

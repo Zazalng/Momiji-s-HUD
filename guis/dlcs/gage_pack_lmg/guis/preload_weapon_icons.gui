@@ -1,0 +1,10 @@
+<gui>
+	<preload texture="guis/dlcs/gage_pack_lmg/textures/pd2/blackmarket/icons/weapons/hk21"/>
+	<preload texture="guis/dlcs/gage_pack_lmg/textures/pd2/blackmarket/icons/weapons/m249"/>
+	<preload texture="guis/dlcs/gage_pack_lmg/textures/pd2/blackmarket/icons/weapons/rpk"/>
+	
+	<preload texture="guis/dlcs/gage_pack_lmg/textures/pd2/blackmarket/icons/melee_weapons/gerber"/>
+	<preload texture="guis/dlcs/gage_pack_lmg/textures/pd2/blackmarket/icons/melee_weapons/kabar"/>
+	<preload texture="guis/dlcs/gage_pack_lmg/textures/pd2/blackmarket/icons/melee_weapons/kampfmesser"/>
+	<preload texture="guis/dlcs/gage_pack_lmg/textures/pd2/blackmarket/icons/melee_weapons/rambo"/>
+</gui>

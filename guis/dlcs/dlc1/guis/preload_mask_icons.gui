@@ -1,0 +1,6 @@
+<gui>
+	<preload texture="guis/dlcs/dlc1/textures/pd2/blackmarket/icons/masks/bush"/>
+	<preload texture="guis/dlcs/dlc1/textures/pd2/blackmarket/icons/masks/clinton"/>
+	<preload texture="guis/dlcs/dlc1/textures/pd2/blackmarket/icons/masks/nixon"/>
+	<preload texture="guis/dlcs/dlc1/textures/pd2/blackmarket/icons/masks/obama"/>
+</gui>

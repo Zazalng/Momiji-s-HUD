@@ -1,0 +1,143 @@
+<gui>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/baby_angry"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/baby_cry"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/baby_happy"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/brazil_baby"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/alienware"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/anonymous"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/babyrhino"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/biglips"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/brainiack"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/buha"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/bullet"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/chains"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/chains_clean"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/character_locked"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/clowncry"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/clown_56"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/cthulhu"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/dallas"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/dallas_clean"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/dawn_of_the_dead"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/day_of_the_dead"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/demon"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/demonictender"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/dillinger_death_mask"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/dripper"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/gagball"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/greek_tragedy"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/grin"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/hockey"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/hog"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/hoxton"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/hoxton_clean"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/jaw"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/monkeybiss"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/mr_sinister"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/mummy"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/oni"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/outlandish_a"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/outlandish_b"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/outlandish_c"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/scarecrow"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/shogun"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/shrunken"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/skull"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/stonekisses"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/tounge"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/troll"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/vampire"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/wolf"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/wolf_clean"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/zipper"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/zombie"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/unicorn"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/samurai"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/the_one_below"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/lycan"/>
+	
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/combusto"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/spackle"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/gumbo"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/smiley"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/crazy_lion"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/jw_shades"/>
+	
+	<preload texture="guis/textures/pd2/blackmarket/icons/colors/color_bg"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/colors/color_01"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/colors/color_02"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/colors/color_small_bg"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/colors/color_small_01"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/colors/color_small_02"/>
+	
+	<preload texture="guis/textures/pd2/blackmarket/icons/characters/chains"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/characters/dallas"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/characters/hoxton"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/characters/wolf"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/characters/jowi"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/characters/old_hoxton"/>
+	
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/old_hoxton"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/simpson"/>
+	
+	<!-- SANTA -->
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/santa_drunk"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/santa_happy"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/santa_mad"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/santa_surprise"/>
+	
+	<!-- DIFFICULTY -->
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/skullhard"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/skullveryhard"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/skulloverkill"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/skulloverkillplus"/>
+	
+	<!-- POETRY -->
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/metalhead"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/optimist_prime"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/surprise"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/tcn"/>
+	
+	<!-- SHOUTOUT -->
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/grendel"/>
+	
+	
+	<!-- COMMUNITY -->
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/bear"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/heat"/>
+	
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/irondoom"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/kawaii"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/rubber_female"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/rubber_male"/>
+	
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/frank"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/venomorph"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/witch"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/pumpkin_king"/>
+	
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/stoneface"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/wayfarer"/>
+	
+	<!-- CRIMEFEST 2015 -->
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/pirate_skull"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/fatboy"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/oliver"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/eggian"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/groucho_glasses"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/glasses_tinted_love"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/baitface"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/nomegusta"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/rageface"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/dawg"/>
+	
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/baba_yaga"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/rus_hat"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/sputnik"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/tiara"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/vlad_armor"/>
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/tormentor"/>
+	
+	<!-- PAYDAYCON 2015 -->
+	<preload texture="guis/textures/pd2/blackmarket/icons/masks/king_of_jesters"/>
+</gui>

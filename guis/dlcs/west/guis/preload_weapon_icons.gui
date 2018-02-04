@@ -1,0 +1,11 @@
+<gui>
+	<preload texture="guis/dlcs/west/textures/pd2/blackmarket/icons/weapons/peacemaker"/>
+	<preload texture="guis/dlcs/west/textures/pd2/blackmarket/icons/weapons/plainsrider"/>
+	<preload texture="guis/dlcs/west/textures/pd2/blackmarket/icons/weapons/winchester1874"/>
+	<preload texture="guis/dlcs/west/textures/pd2/blackmarket/icons/weapons/x_holliday"/>
+	
+	<preload texture="guis/dlcs/west/textures/pd2/blackmarket/icons/melee_weapons/scalper"/>
+	<preload texture="guis/dlcs/west/textures/pd2/blackmarket/icons/melee_weapons/bowie"/>
+	<preload texture="guis/dlcs/west/textures/pd2/blackmarket/icons/melee_weapons/branding_iron"/>
+	<preload texture="guis/dlcs/west/textures/pd2/blackmarket/icons/melee_weapons/mining_pick"/>
+</gui>

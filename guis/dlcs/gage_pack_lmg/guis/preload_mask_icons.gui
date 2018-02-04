@@ -1,0 +1,6 @@
+<gui>
+	<preload texture="guis/dlcs/gage_pack_lmg/textures/pd2/blackmarket/icons/masks/cloth_commander"/>
+	<preload texture="guis/dlcs/gage_pack_lmg/textures/pd2/blackmarket/icons/masks/gage_blade"/>
+	<preload texture="guis/dlcs/gage_pack_lmg/textures/pd2/blackmarket/icons/masks/gage_deltaforce"/>
+	<preload texture="guis/dlcs/gage_pack_lmg/textures/pd2/blackmarket/icons/masks/gage_rambo"/>
+</gui>

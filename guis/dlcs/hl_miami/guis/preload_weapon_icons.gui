@@ -1,0 +1,11 @@
+<gui>
+	<preload texture="guis/dlcs/hl_miami/textures/pd2/blackmarket/icons/weapons/scorpion"/>
+	<preload texture="guis/dlcs/hl_miami/textures/pd2/blackmarket/icons/weapons/tec9"/>
+	<preload texture="guis/dlcs/hl_miami/textures/pd2/blackmarket/icons/weapons/uzi"/>
+	
+	<preload texture="guis/dlcs/hl_miami/textures/pd2/blackmarket/icons/melee_weapons/baseballbat"/>
+	<preload texture="guis/dlcs/hl_miami/textures/pd2/blackmarket/icons/melee_weapons/cleaver"/>
+	<preload texture="guis/dlcs/hl_miami/textures/pd2/blackmarket/icons/melee_weapons/fireaxe"/>
+	<preload texture="guis/dlcs/hl_miami/textures/pd2/blackmarket/icons/melee_weapons/machete"/>
+	<preload texture="guis/dlcs/hl_miami/textures/pd2/blackmarket/icons/melee_weapons/briefcase"/>
+</gui>

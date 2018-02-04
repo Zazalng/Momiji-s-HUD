@@ -1,0 +1,5 @@
+<gui>
+	<preload texture="guis/dlcs/wild/textures/pd2/blackmarket/icons/characters/wild"/>
+	<preload texture="guis/dlcs/wild/textures/pd2/blackmarket/icons/masks/rust"/>
+	<preload texture="guis/dlcs/wild/textures/pd2/blackmarket/icons/masks/rust_begins"/>
+</gui> 

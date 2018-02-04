@@ -1,0 +1,6 @@
+<gui> 
+	<preload texture="guis/dlcs/berry/textures/pd2/blackmarket/icons/masks/maui"/>
+	<preload texture="guis/dlcs/berry/textures/pd2/blackmarket/icons/masks/oro"/>
+	<preload texture="guis/dlcs/berry/textures/pd2/blackmarket/icons/masks/tane"/>
+	<preload texture="guis/dlcs/berry/textures/pd2/blackmarket/icons/masks/water_spirit"/>
+</gui> 
